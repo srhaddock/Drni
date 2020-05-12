@@ -34,9 +34,12 @@ limitations under the License.
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
     std::cout << "Hello World!\n";
+    cout << "   Glad to be back! " << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
