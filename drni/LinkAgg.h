@@ -78,7 +78,8 @@ private:
 //	shared_ptr<AggPort> LinkAgg::distributeFrame(Aggregator& thisAgg, Frame& thisFrame);
 	shared_ptr<AggPort> distributeFrame(Aggregator& thisAgg, Frame& thisFrame);
 
-	static class LacpSelection
+//	static class LacpSelection
+	class LacpSelection
 	{
 	public:
 //		static void resetSelection(AggPort& port);

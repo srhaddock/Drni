@@ -183,7 +183,8 @@ public:
 	/**/
 private:
 
-	static class LacpRxSM
+//	static class LacpRxSM
+	class LacpRxSM
 	{
 	public:
 
@@ -231,7 +232,8 @@ private:
 	int currentWhileTimer;
 
 
-	static class LacpMuxSM
+//	static class LacpMuxSM
+	class LacpMuxSM
 	{
 	public:
 
@@ -270,7 +272,8 @@ private:
 	int waitWhileTimer;
 	int waitToRestoreTimer;
 
-	static class LacpPeriodicSM
+//	static class LacpPeriodicSM
+	class LacpPeriodicSM
 	{
 	public:
 
@@ -298,7 +301,8 @@ private:
 
 
 
-	static class LacpTxSM
+//	static class LacpTxSM
+	class LacpTxSM
 	{
 	public:
 

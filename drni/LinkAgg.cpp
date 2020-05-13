@@ -79,7 +79,7 @@ void LinkAgg::timerTick()
 
 void LinkAgg::run(bool singleStep)
 {
-	unsigned short nPorts = pAggPorts.size();
+	unsigned short nPorts = (unsigned short)pAggPorts.size();
 	unique_ptr<Frame> pTempFrame = nullptr;
 
 	if (!suspended)       

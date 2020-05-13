@@ -210,7 +210,7 @@ void LinkAgg::LacpSelection::runSelection(std::vector<shared_ptr<AggPort>>& pAgg
 			pAggregators[pAggPorts[px]->actorPortAggregatorIndex]->lagPorts.remove(px);  // remove AggPort from lagPort list of previously selected Aggregator
 			pAggregators[pAggPorts[px]->actorPortAggregatorIndex]->selectedLagPorts.remove(px);  // remove AggPort from lagPort list of previously selected Aggregator
 
-			unsigned short chosenAggregatorIndex = pAggPorts.size();   // assume no aggregator chosen yet
+			unsigned short chosenAggregatorIndex = (unsigned short)pAggPorts.size();   // assume no aggregator chosen yet
 
 			if (!pAggPorts[px]->actorOperPortState.aggregation)       // If port is not aggregatable (i.e. is Individual)
 //				&& pAggregators[px]->getEnabled())                     //     and the aggregator is enabled

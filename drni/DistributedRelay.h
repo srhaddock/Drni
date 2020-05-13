@@ -138,7 +138,8 @@ public:
 //	std::list<unsigned short> drniCompareLists(std::list<unsigned short> listA, std::list<unsigned short> listB);
 
 	/**/
-	static class DrcpRxSM
+//	static class DrcpRxSM
+	class DrcpRxSM
 	{
 	public:
 
@@ -167,7 +168,8 @@ public:
 
 	/**/
 
-	static class DrcpTxSM
+//	static class DrcpTxSM
+	class DrcpTxSM
 	{
 	public:
 
