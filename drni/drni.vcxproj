@@ -147,7 +147,44 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AggPort.cpp" />
+    <ClCompile Include="Aggregator.cpp" />
+    <ClCompile Include="Bridge.cpp" />
+    <ClCompile Include="Device.cpp" />
+    <ClCompile Include="DistRelayState.cpp" />
+    <ClCompile Include="DistributedRelay.cpp" />
+    <ClCompile Include="Drcpdu.cpp" />
+    <ClCompile Include="DrcpRxSM.cpp" />
+    <ClCompile Include="DrcpTxSM.cpp" />
     <ClCompile Include="drni.cpp" />
+    <ClCompile Include="Frame.cpp" />
+    <ClCompile Include="Lacpdu.cpp" />
+    <ClCompile Include="LacpMuxSM.cpp" />
+    <ClCompile Include="LacpPeriodicSM.cpp" />
+    <ClCompile Include="LacpRxSM.cpp" />
+    <ClCompile Include="LacpSelectionLogic.cpp" />
+    <ClCompile Include="LacpTxSM.cpp" />
+    <ClCompile Include="LinkAgg.cpp" />
+    <ClCompile Include="Mac.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AggPort.h" />
+    <ClInclude Include="Aggregator.h" />
+    <ClInclude Include="Bridge.h" />
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="DistRelayState.h" />
+    <ClInclude Include="DistributedRelay.h" />
+    <ClInclude Include="Drcpdu.h" />
+    <ClInclude Include="Frame.h" />
+    <ClInclude Include="Lacpdu.h" />
+    <ClInclude Include="LinkAgg.h" />
+    <ClInclude Include="Mac.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE-2_0.txt" />
+    <Text Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
